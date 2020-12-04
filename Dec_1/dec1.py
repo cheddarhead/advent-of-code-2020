@@ -20,7 +20,7 @@ for line in input_file:
 
 input_file.close()
 
-# part 1:
+# Part 1:
 for number in all_numbers:
     matchingNumber = 2020 - number
     if matchingNumber in all_numbers:
@@ -29,7 +29,7 @@ for number in all_numbers:
         product = number * matchingNumber
         print(str("PART 1 -- Sum is {} and Product is {}").format(sum, product))
 
-# part 2:
+# Part 2:
 for first_number in all_numbers:
     for second_number in all_numbers:
         sumOfTwo = first_number + second_number
