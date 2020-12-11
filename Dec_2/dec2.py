@@ -1,4 +1,4 @@
-# Advent of Code - Dec 1st
+# Advent of Code - Dec 2nd
 
 # Input = text file with a list of "passwords" and "rules"
 #   Each line gives the password policy and then the password.

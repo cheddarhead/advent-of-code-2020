@@ -1,12 +1,11 @@
-# Advent of Code - Dec 1st
+# Advent of Code - Dec 3rd
 
-# Input = text file with a list of "passwords" and "rules"
-#   Each line gives the password policy and then the password.
-#   The password policy indicates the lowest and highest number
-#   of times a given letter must appear for the password to be valid.
-#   For example, 1-3 a means that the password must contain a at least 1 time and at most 3 times.
-# Goal = find numbers of valid passwords
-# Output = single number which is count of valid passwords
+# Input = text file with forest of trees(#) and open space(.)
+#   The input represents a single instance of the forest pattern,
+#   but it repeats itself infinitely.
+# Goal = find the number of trees which we would encounter while
+#   "sliding" down to the bottom row
+# Output = number of trees encountered in various "slides"
 
 from pathlib import Path
 
