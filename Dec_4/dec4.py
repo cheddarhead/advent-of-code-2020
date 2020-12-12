@@ -29,7 +29,6 @@ for line in input_file:
         passport_string += line.rstrip()
         passport_string += " "
     else:
-        #print(str("Appending String {}").format(passport_string))
         passport_string = passport_string.strip()
         all_passports.append(passport_string)
         passport_string = ""
@@ -55,6 +54,7 @@ for passport in all_passports:
             break
 
 print(str("PART 1 -- Count of Valid Passports {}").format(valid_passports))
+
 
 # Part 2:
 def validate_byr(byr):
