@@ -42,8 +42,8 @@ input_file.close()
 any_yes_count = 0
 
 for record in records_with_any_yes:
-    print(record)
-    print(len(record))
+    # print(record)
+    # print(len(record))
     any_yes_count += len(record)
 
 print(str("PART 1 -- Questions to which Anyone in a group responded with Yes: {}").format(any_yes_count))
@@ -83,8 +83,8 @@ input_file.close()
 all_yes_count = 0
 
 for record in records_with_all_yes:
-    print(record)
-    print(len(record))
+    # print(record)
+    # print(len(record))
     all_yes_count += len(record)
 
 print(str("PART 2 -- Questions to which Everyone in a group responded with Yes: {}").format(all_yes_count))
